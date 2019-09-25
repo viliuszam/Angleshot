@@ -22,7 +22,7 @@ public abstract class Feature
         //Initialize pane
         this.content = new GridPane();
 
-        //Set the panes size
+        //Set the panes size TODO: MAKE THIS ACTUALLY WORK
         this.content.setPrefSize(width, height);
 
         //Call the feature creation method (pane design, functionality etc)

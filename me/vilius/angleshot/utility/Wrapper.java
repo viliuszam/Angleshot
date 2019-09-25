@@ -1,7 +1,5 @@
 package me.vilius.angleshot.utility;
 
-import me.vilius.angleshot.Angleshot;
-import net.dv8tion.jda.api.entities.SelfUser;
 import net.dv8tion.jda.api.entities.User;
 
 /*

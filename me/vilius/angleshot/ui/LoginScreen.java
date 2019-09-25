@@ -101,11 +101,11 @@ public class LoginScreen extends Application
                 //Add our custom event listener to the JDA we built
                 Angleshot.getInstance().getJDA().addEventListener(new AngleshotListener());
 
-                //Initialize our feature manager
-                Angleshot.getInstance().setFeatureManager(new FeatureManager());
-
                 //Wait for the JDA to be ready before we present the user with the features
                 Angleshot.getInstance().getJDA().awaitStatus(JDA.Status.CONNECTED);
+
+                //Initialize our feature manager
+                Angleshot.getInstance().setFeatureManager(new FeatureManager());
 
                 //Open the control window
                 new ControlScreen().start(new Stage());

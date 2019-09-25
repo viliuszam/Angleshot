@@ -1,7 +1,6 @@
 package me.vilius.angleshot.feature;
 
-import me.vilius.angleshot.feature.include.MassPingFeature;
-import me.vilius.angleshot.feature.include.TestFeature;
+import me.vilius.angleshot.feature.include.SelectorFeature;
 
 import java.util.ArrayList;
 
@@ -17,8 +16,7 @@ public class FeatureManager
     public FeatureManager()
     {
         //Adding features manually, TODO: reflections (?)
-        this.featureList.add(new TestFeature());
-        this.featureList.add(new MassPingFeature());
+        this.featureList.add(new SelectorFeature());
     }
 
     public ArrayList<Feature> getFeatureList() {
